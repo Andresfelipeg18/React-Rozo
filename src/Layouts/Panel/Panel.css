@@ -1,0 +1,15 @@
+/* Estilo para el contenedor principal */
+.ColorChanger {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo para el botón */
+  .btn-change-color {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

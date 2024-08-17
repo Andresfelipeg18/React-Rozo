@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Formulario2 form{
+display: flex;
+align-items: center;
+padding: 4vw;
+flex-wrap: wrap;
+}
+
+.registro form{
+    display: flex;
+    gap: 1rem;
+}
+
+.registro  h2,h1,ul{
+    padding: 2%;
+    text-align: center;
+}
+
+.btn3{
+    margin-left: 45%;
+}
+
+
+
+

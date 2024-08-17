@@ -1,0 +1,103 @@
+.Saludar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    gap: 5rem;
+}
+
+.form__group {
+    position: relative;
+    padding: 20px 0 0;
+    width: 100%;
+    max-width: 180px;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: rgb(233, 233, 233);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .form__field::placeholder {
+    color: transparent;
+  }
+  
+  .form_field:placeholder-shown ~ .form_label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #9b9b9b;
+    pointer-events: none;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #116399, #38caef);
+    border-image-slice: 1;
+  }
+  
+  .form_field:focus ~ .form_label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #38caef;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form_field:required, .form_field:invalid {
+    box-shadow: none;
+  }
+
+
+  /* From Uiverse.io by suda-code */ 
+button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+.welcome-message{
+  display: flex;
+  font-size: 24px;
+  color: white;
+
+}

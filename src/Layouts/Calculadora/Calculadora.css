@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container2{
+    margin-top: 5rem;
+    gap: 10rem;
+}
+
+.main1{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color:aliceblue;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.input1{
+    width: 10vw;
+    height: 3vw;
+    border-radius: 10%;
+    border: none;
+    text-align: center;
+}
+
